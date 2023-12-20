@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "version": "2",
+    "service": {
+      "firebase": {
+        "storage": {
+          "match": {
+            "/b/{bucket}/o": {
+              "match": {
+                "/{allPaths=**}": {
+                  "allow": {
+                    "read": "request.auth != null"
+                  }
+                },
+                "/{user}/{filename}": {
+                  "allow": {
+                    "read": "request.auth != null",
+                    "write": "request.auth != null && request.auth.uid == user"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

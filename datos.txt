@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+DATOS DEL ALUMNO
+-------------------------------------------------------------------------------
+
+Carrera: Diseño y desarrollo web.
+Materia: Clientes web Mobile.
+Cuatrimeste: 4to Cuatrimeste (cuarto).
+Año: 2023.
+Turno: Mañana.
+Comisión: DWM4AV.
+Apellido: Caruso.
+Nomrbre: Luciano.
+Docente: Gallino Santiago.
+Carácter de entrega: Final. 
+
+-------------------------------------------------------------------------------
+Credenciales de acceso al panel de administración
+-------------------------------------------------------------------------------
+mail: lucho@gmail.com
+pass: 123456

@@ -1,0 +1,52 @@
+{
+    "chats" : {
+        "r4wJqBOuWgyXgoHsWPdf": {
+            "messages" : {
+                "WfrbNvjxyYFfm3IKxQTQ": {
+                    "created_at": "12 de diciembre de 2023, 3:19:21 p.m. UTC-3",
+                    "message": "¡Hola! Gracias por ponerte en contacto con nosotros. Hemos recibido tu mensaje y a la brevedad uno de nuestros administradores se pondrá en contacto.",
+                    "sender": "yRcshoOFuMTweFZQb6GczQc1DcJ3"
+                }
+            },
+            "users": {
+                "Dzi7UbXXrAfWCnPsv5kagb9wYXo1": true,
+                "yRcshoOFuMTweFZQb6GczQc1DcJ3": true
+            }
+        }
+    },
+
+    "hirings": {
+        "XictX71XQl662oyhwpuk": {
+            "created_at":"5 de diciembre de 2023, 3:42:12 p.m. UTC-3",
+            "priceName": "Tienda Ultimate",
+            "state": "Pago",
+            "userEmail": "chester@gmail.com",
+            "userId": "GjWatmLmddMAArXuj7Stjpo49kX2"
+        }
+    },
+
+    "pricing": {   
+        "7PnMQrrYVfMCjQDgHOhD": {
+            "created_at": "19 de mayo de 2023, 5:48:12 p.m. UTC-3",
+            "description": "Expandí tu negocio con herramientas que mejoran el redimiento de tu tienda.",
+            "name": "Tienda Ultimate",
+            "price": "23999",
+            "proceeds": {
+                "0": "Permisos diferenciados por usuario",
+                "1": "Tarifas más bajas",
+                "2": "Atención por WhatsApp, chat y email con tiempo de respuesta en 4hs",
+                "3": "Estadísticas avanzadas y descarga de datos ilimitados"
+            }
+        }
+    },
+
+    "users": {
+        "Dzi7UbXXrAfWCnPsv5kagb9wYXo1": {
+            "admin": false,
+            "email": "miguel@gmail.com",
+            "name": "Miguel",
+            "surname": "Lopez",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/caruso-luciano.appspot.com/o/Dzi7UbXXrAfWCnPsv5kagb9wYXo1%2Favatar.jpg?alt=media&token=5a726478-9ac7-403b-ae99-1d99f3c2e7b8"
+        }
+    }
+}

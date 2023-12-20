@@ -1,0 +1,778 @@
+:root {
+    --links-color: #2c3657;
+    --links-focus: #0075da;
+    --background-nav: #fff;
+    --background-functions: #f5f5f5;
+    --background-footer: #2c3357;
+    --color-list-item: #473C41;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ a {    
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+/*!----------------------------------Menú de nav-------------------------------------------*/
+
+nav {
+    height: 82px;
+    width: 100%;
+    padding: 30px 0 !important;
+}
+    .navbar-brand {
+        color: var(--links-color) !important;
+        margin-top: -10px;
+    }
+
+    .logo {
+        margin-top: -10px;
+    }
+
+    h1 {
+        color: var(--background-footer);
+    }
+
+    .bg-admin {
+        background: #004f94;
+    }
+
+    .text-white.expanded {
+        display: inline;
+        transition: ease-in-out 5ms;
+      }
+      
+      /* Estilos para el menú contraído */
+      .bg-admin.collapsed {
+        width: auto;
+      }
+      
+      .bg-admin.collapsed span  {
+          display: none !important;
+      } 
+      
+      .bg-admin.collapsed h1  {
+          display: none !important;
+      } 
+      
+
+    .nav-link {
+        color: #2c3657;
+        font-size: 16px;
+        padding: 7.5px 15px !important;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    nav,
+    .offcanvas {
+        background-color: var(--background-nav);
+    }
+
+    .navbar-toggler {
+        border: none;
+        color: var(--links-color);
+        background-color: #ecebec;
+        padding: 10px;
+        margin-top: -10px;
+        border-radius: 60px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .nav-link:hover {
+        color: var(--links-focus) !important;
+    }
+
+    .button-register {
+        font-size: 1rem;
+        padding: 12px 25px;
+        line-height: 1.1;
+        border: 2px solid transparent;
+        border-radius: 100px;
+        font-weight: 500;
+        letter-spacing: -.18px;
+        background-color: #006bc8;
+        color: #fff !important;
+    }
+
+    .button-register:hover {
+        color: #fff !important;
+        background-color: #004f94;
+    }
+
+    nav h1 {
+        margin-top: -13px;
+        color: #2c3357;
+    }
+
+    .navbar-shadow {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+/*!----------------------------------Banner tienda-------------------------------------------*/
+
+.banner-tienda {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner-tienda h2 {
+    font-size: 43px;
+    color: #2c3657;
+}
+
+    .banner-tienda p {
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    .banner-tienda img {
+        border-radius: 20px;
+    }
+
+    .banner-tienda button {
+        background: #005daf;
+        color: #fff;
+        border-radius: 100px;
+        padding: 12px 25px;
+        text-align: center;
+        width: 100%;
+        border: none;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .banner-tienda button:hover {
+        background-color: #004f94;
+    }
+
+/*!----------------------------------Slider ecommerce-------------------------------------------*/
+
+.slider h2 {
+    margin: 70px auto;
+    padding: 35px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+.carrusel {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 60px auto;
+  }
+  
+  .carrusel-inner {
+    display: flex;
+    animation: slide 10s infinite linear;
+  }
+  
+  .carrusel-item {
+    flex: 0 0 calc(33.33% - 60px);
+    margin-right: 60px;
+  }
+
+  .carrusel-item:last-child {
+    margin-right: 0; 
+  }
+
+  .carrusel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-33.33%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+/*!----------------------------------Cards funcionalidades-------------------------------------------*/
+
+.color-txt {
+    color: var(--links-focus);
+}
+
+.seccion-funcionalidades {
+    padding: 50px 0;
+    background: var(--background-functions);
+}
+
+.iconos-funcionalidades {
+    color: var(--links-focus);
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.seccion-funcionalidades article {
+    max-width: 500px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+/*!----------------------------------Footer-------------------------------------------*/
+
+footer {
+    background-color: var(--background-footer);
+    padding: 60px 0 0;
+    color: #fff;
+    height: max-content;
+}
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    footer a:hover {
+        color: var(--links-focus);
+    }
+
+    footer .redes i {
+        font-size: 25px;
+        margin-left: auto;
+    }
+
+    .copy {
+        background-color: #38416f;
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+/*!----------------------------------Cards pricing-------------------------------------------*/
+
+.pricing h2 {
+    font-size: 43px;
+}
+
+    .pricing .subtitulo {
+        font-weight: 500;
+        line-height: 1.8;
+        font-size: 19px;
+        color: #62595d;
+    }
+
+    .pricing .card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .pricing .card h3 {
+        font-size: 25px;
+    }
+
+    .pricing .card .price {
+        font-size: 30px;
+        font-weight: 500;
+        color: #004f94;
+    }
+
+    .pricing .card-text {
+        color: var(--color-list-item);
+    }
+
+    .pricing .card ul {
+        list-style: none;
+    }
+
+    .pricing .card ul li::before {
+        content: "\2713";
+        color: #004f94;
+        margin-right: 5px;
+    }
+
+    .pricing .card ul:last-child {
+        margin-bottom: 60px;
+    }
+
+
+    .pricing .card button {
+        margin-top: auto;
+        color: #fff;
+        background: var(--links-focus);
+        font-weight: 500;
+        border-radius: 30px;
+        border: none;
+        padding: 8px;
+    }
+
+    .pricing .card button:hover {
+        background:rgb(0, 63, 135);
+    }
+
+/*!----------------------------------Form Login-------------------------------------------*/
+
+.bg-white {
+    background: #f3f3f3;
+    border: 1px solid #1a1a1a;
+    border-radius: 10px;
+}
+
+.container-password {   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+    .password-input {
+        position: relative;
+        width: 100%;
+    }
+
+    .bi-eye-fill, .bi-eye-slash-fill {
+        position: absolute;
+        font-size: 20px;
+        opacity: 0.3;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+    .bi-eye-fill:hover, .bi-eye-slash-fill:hover {
+        opacity: 1;
+    }
+
+    .text-registro {   
+        font-size: 18px;
+        color: var(--background-footer);
+    }
+
+    .link-registro {
+        text-decoration: none;
+        color: #004f94;
+    }
+
+    .link-registro:hover {
+        color: var(--links-focus);
+    }
+
+/*!----------------------------------Panel Admin-------------------------------------------*/
+
+.admin ul li::before {
+        content: "\2713";
+        color: #004f94;
+        margin-right: 5px;
+}
+
+/*!----------------------------------Datos del usuario-------------------------------------------*/
+
+.user-data {
+    width: 50%;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000 ;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    background: #005daf;
+    color: #fff;;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 8px;
+    transition: background 0.3s;
+}
+
+.edit:hover {
+    background:#003462;
+}
+
+#photoURL {
+    display: none;
+}
+
+.foto-default {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    border: 2px solid black;
+}
+
+/*!----------------------------------Chat en perfil-------------------------------------------*/
+#chat {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: auto;
+    border-radius: 0px;
+}
+
+#form-message {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.chat-form {
+    resize: none;
+    border-radius: 0px 0 0 10px;
+}
+
+.chat-form:hover {
+    background: #efefef;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.background-sender {
+    background-color: #efefef;
+}
+
+.background-from {
+    background-color: #004f94;
+    color: #fff;
+}
+
+.background-from span {
+    color: #e6e6e6 !important;
+}
+
+.right {
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.send-message {
+    border: none;
+    padding: 15px;
+    background: #004f94;
+    color: #fff;
+    border-radius: 0 0px 10px 0;
+}
+
+.send-message:hover {
+    background: #003462;
+}
+
+.send-message:disabled {
+    cursor: not-allowed;
+}
+  
+/*!----------------------------------Chat de Admin-------------------------------------------*/
+
+.chat-admin {
+    background: #fcfcfc;
+    border-right: 2px solid #dadde1;
+    overflow: auto;
+}
+
+.chats {
+    margin: 0 -12px !important;
+    padding: 10px -12px !important;
+    cursor: pointer;
+}
+
+.chats:hover {
+    background-color: #dbdee0;
+}
+
+.chat-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 15px 5px;
+}
+
+.chat-name {
+    margin-top: -100px !important;
+}
+
+.header-chat-info {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.chat-info {
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-content {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chat-open {
+    background-color: #dbdee0;
+}
+
+/*!----------------------------------Página de Error 404-------------------------------------------*/
+.error404 {
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.error404 h2 {
+    font-size: 40px;
+    margin: 40px auto;
+}
+
+.error404 p {
+    font-size:larger;
+}
+
+/*!----------------------------------Loader-------------------------------------------*/
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid var(--links-color);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: var(--links-color) transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .borde-bottom {
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .borde-top {
+        border-top: 1px solid #dee2e6;
+        padding-top: 15px;
+    }
+
+    .banner-tienda h2 {
+        font-size: 35px;
+    }
+
+    .banner-tienda p {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner-tienda img {
+        margin-top: 40px;
+    }
+
+    .carrusel-item {
+        flex: 0 0 calc(50% - 30px);
+        margin-right: 30px;
+      }
+
+        @keyframes slide {
+        0% {
+        transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    
+    .seccion-funcionalidades article {
+        max-width: 360px;
+        width: 100%;
+    }
+
+    .pricing h2 {
+        font-size: 38px;
+    }
+    
+    .pricing .subtitulo {
+        font-size: 18px;
+    }
+    
+    footer .contenido {
+        padding: 0 40px;
+    }
+
+    footer .cloudnet-info {
+        margin-bottom: 40px;
+    }
+
+    .user-data {
+        width: 80%;
+        padding: 30px 20px !important;
+    }    
+
+    .error404 h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .seccion-funcionalidades article {
+        max-width: 300px;
+        width: 70%;
+        margin-right: 10px;
+    }
+
+    footer section div:not(:first-of-type) {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+
+    .slider h2 {
+        font-size: 25px;
+    }
+
+    .seccion-funcionalidades h2 {
+        font-size: 30px;
+    }
+
+    .seccion-funcionalidades article {
+        max-width: 100%;
+        width: 90%;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .carrusel-item {
+        flex: 0 0 calc(100% - 15px);
+        margin-right: 15px;
+    }
+
+    @keyframes slide {
+        0% {
+        transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-250%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .pricing h2 {
+        font-size: 30px;
+    }
+    
+    .pricing .subtitulo {
+        font-size: 16px;
+    }
+
+    .text-registro {   
+        font-size: 15px;
+    }
+
+    .user-data {
+        width: 100%;
+        padding: 30px 20px !important;
+    }    
+
+    .error404 h2 {
+        font-size: 25px;
+    }
+
+    .error404 p {
+        font-size: medium;
+    }
+}
+
+
+
