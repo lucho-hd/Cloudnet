@@ -12,9 +12,3 @@ Apellido: Caruso.
 Nomrbre: Luciano.
 Docente: Gallino Santiago.
 Carácter de entrega: Final. 
-
--------------------------------------------------------------------------------
-Credenciales de acceso al panel de administración
--------------------------------------------------------------------------------
-mail: lucho@gmail.com
-pass: 123456
