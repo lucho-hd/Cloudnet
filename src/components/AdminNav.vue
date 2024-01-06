@@ -39,7 +39,7 @@ function useLogout() {
                 <i class="fs-3 bi-list"></i>
             </button>
             <router-link to="/admin/panel/pricing" class="d-flex align-items-center ms-3 pb-3 mb-md-0 me-md-auto text-decoration-none">
-                <img src="img/logo/logo.png" alt="Logo de Cloudnet" class="mt-2">
+                <img src="../assets/logo/logo.png" alt="Logo de Cloudnet" class="mt-2">
                 <h1 class="fs-4 fw-bold d-none d-sm-inline mt-3 ps-1 text-white">Cloudnet</h1>
             </router-link>
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">

@@ -25,7 +25,7 @@
             </form>
         </div>
         <div class="col-lg-7">  
-            <img src="img/banner-hosting.png" class="img-fluid" alt="Creá tu tienda online gratis">
+            <img src="../assets/banner-hosting.png" class="img-fluid" alt="Creá tu tienda online gratis">
         </div>
     </section>
 
@@ -38,16 +38,16 @@
         <div class="carrusel">
             <div class="carrusel-inner">
                 <div class="carrusel-item">
-                    <img src="img/ecommerce/ecommerce-1.png" alt="ecommerce 1">
+                    <img src="../assets/ecommerce/ecommerce-1.png" alt="Tienda Summer hecha con Cloudnet">
                 </div>
                 <div class="carrusel-item">
-                    <img src="img/ecommerce/ecommerce-2.jpg" alt="ecommerce 2">
+                    <img src="../assets/ecommerce/ecommerce-2.jpg" alt="Tienda Fashion hecha con Cloudnet">
                 </div>
                 <div class="carrusel-item">
-                    <img src="img/ecommerce/ecommerce-3.jpg" alt="ecommerce 3">
+                    <img src="../assets/ecommerce/ecommerce-3.jpg" alt="Tienda Almost Summer hecha con Cloudnet">
                 </div>
                 <div class="carrusel-item">
-                    <img src="img/ecommerce/ecommerce-4.jpg" alt="ecommerce 4">
+                    <img src="../assets/ecommerce/ecommerce-4.jpg" alt="Tienda Spedo hecha con Cloudnet">
                 </div>
             </div>
         </div>

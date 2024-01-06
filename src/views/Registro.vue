@@ -83,7 +83,7 @@
                     setSuccessMessage({message: 'La cuenta ha sido creada exitosamente'});
                 })
                 .catch(err => {
-                    setErrorMessage({message: 'Ocurrió un error al intentar crear la cuenta, por favor intenalo de nuevo más tarde.'});
+                    setErrorMessage({message: 'Ocurrió un error al intentar crear la cuenta, por favor inténtalo de nuevo más tarde.'});
                     console.error(err);
                 });
         }

@@ -30,7 +30,7 @@
             <div class="container">
                 <div>
                     <router-link to="/" class="navbar-brand text-light fw-bold fs-3">
-                        <img src="img/favicon/favicon.ico" alt="Icono de Cloudnet" class="img-fluid logo"/> 
+                        <img src="../assets/favicon/favicon.ico" alt="Icono de Cloudnet" class="img-fluid logo"/> 
                         Cloudnet
                     </router-link>
                 </div>
@@ -52,7 +52,7 @@
                 >
                     <div class="offcanvas-header" data-bs-theme="white">
                     <h1 class="offcanvas-title fw-bold fs-3 mt-2">
-                        <img src="img/favicon/favicon.ico" alt="Logo de Cloudnet" class="img-fluid logo"> 
+                        <img src="../assets/favicon/favicon.ico" alt="Logo de Cloudnet" class="img-fluid logo"> 
                         Cloudnet
                     </h1>
                     <button

@@ -12,7 +12,7 @@
             <p>Si el problema persiste escribinos en nuestro <a href="">centro de ayuda.</a></p>
         </div>
         <div class="col-lg-6">
-            <img src="img/404/error-404.jpg" alt="Error 404" class="img-fluid">
+            <img src="../assets/404/error-404.jpg" alt="Error 404" class="img-fluid">
         </div>
     </section>
     <Footer/>

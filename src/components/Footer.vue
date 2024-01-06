@@ -3,7 +3,7 @@
         <div class="container">
             <section class="row justify-content-lg-between justify-content-center contenido">
                 <div class="col-lg-3 col-12 cloudnet-info">
-                    <img src="img/logo/logo.png" alt="Logo de Cloudnet" class="img-fluid logo">
+                    <img src="../assets/logo/logo.png" alt="Logo de Cloudnet" class="img-fluid logo">
                     <span class="fw-bold fs-4 ps-2">Cloudnet</span>
                     <p class="mt-3">Somos un proveedor de hosting web con el objetivo de
                        llevar el éxito a todas las personas que están en internet.
